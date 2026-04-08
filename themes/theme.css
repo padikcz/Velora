@@ -1,0 +1,507 @@
+.backgroundContainer {
+    background: linear-gradient(
+        145deg,
+        #050507,
+        #120a24,
+        #241046,
+        #08080c
+    ) !important;
+    background-size: 350% 350%;
+    animation: jellyfinAurora 30s ease infinite;
+}
+
+@keyframes jellyfinAurora {
+    0% { background-position: 0% 40%; }
+    50% { background-position: 100% 60%; }
+    100% { background-position: 0% 40%; }
+}
+
+.emby-tab-button {
+    color: rgba(240,230,255,0.86) !important;
+    transition: color 0.2s ease, text-shadow 0.2s ease !important;
+}
+
+.emby-tab-button:hover {
+    color: rgba(255,255,255,0.96) !important;
+    text-shadow: 0 0 10px rgba(170,110,255,0.20) !important;
+}
+
+.emby-tab-button[aria-selected="true"] {
+    color: #c896ff !important;
+    text-shadow: 0 0 12px rgba(170,110,255,0.35) !important;
+}
+
+.detailRibbon {
+    background: linear-gradient(
+        180deg,
+        rgba(28, 18, 45, 0.78) 0%,
+        rgba(18, 10, 35, 0.76) 100%
+    ) !important;
+
+    backdrop-filter: blur(20px) saturate(160%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(160%) !important;
+
+    border-radius: 16px 16px 0 0;
+    border: 1px solid rgba(180,120,255,0.12) !important;
+    border-bottom: none !important;
+
+    box-shadow: none !important;
+}
+
+.detailPageSecondaryContainer {
+    background: linear-gradient(
+        180deg,
+        rgba(18, 10, 35, 0.80) 0%,
+        rgba(10, 6, 22, 0.88) 100%
+    ) !important;
+
+    backdrop-filter: blur(20px) saturate(160%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(160%) !important;
+
+    border-radius: 0 0 16px 16px;
+    border: 1px solid rgba(180,120,255,0.12) !important;
+    border-top: none !important;
+
+    margin-top: 0 !important;
+
+    box-shadow: 0 12px 36px rgba(0,0,0,0.45) !important;
+}
+
+.cardOverlayButtonIcon {
+    width: 100% !important;
+    height: 100% !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.5em;
+    color: rgba(245,235,255,0.95) !important;
+    text-shadow: 0 0 18px rgba(170,110,255,0.30) !important;
+}
+
+.detailLogo {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 16vh;
+    width: 25vw;
+
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.noHomeButtonHeader {
+    background: linear-gradient(
+        180deg,
+        rgba(28, 18, 45, 0.55) 0%,
+        rgba(18, 10, 35, 0.52) 100%
+    ) !important;
+
+    backdrop-filter: blur(18px) saturate(170%) !important;
+    -webkit-backdrop-filter: blur(18px) saturate(170%) !important;
+
+    border: 1px solid rgba(180,120,255,0.12) !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.03),
+        0 8px 28px rgba(0,0,0,0.26) !important;
+
+    border-radius: 35px;
+    margin: 10px 16px;
+}
+
+.skinHeader:not(.osdHeader):not(.osdHeader-hidden):not(.hide) {
+    background: linear-gradient(
+        180deg,
+        rgba(28, 18, 45, 0.55) 0%,
+        rgba(18, 10, 35, 0.52) 100%
+    ) !important;
+
+    backdrop-filter: blur(18px) saturate(170%) !important;
+    -webkit-backdrop-filter: blur(18px) saturate(170%) !important;
+
+    border: 1px solid rgba(180,120,255,0.12) !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.03),
+        0 8px 28px rgba(0,0,0,0.26) !important;
+
+    border-radius: 35px;
+    margin: 10px 16px;
+}
+
+.skinHeader .headerButton,
+.skinHeader .headerButtonIcon,
+.noHomeButtonHeader .headerButton,
+.noHomeButtonHeader .headerButtonIcon {
+    color: rgba(235,225,255,0.90) !important;
+}
+
+.skinHeader .headerButton:hover,
+.noHomeButtonHeader .headerButton:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px rgba(170,110,255,0.28) !important;
+}
+
+.mainDrawer-scrollContainer.scrollContainer.focuscontainer-y.scrollY {
+    background: linear-gradient(
+        180deg,
+        rgba(28, 18, 45, 0.88) 0%,
+        rgba(18, 10, 35, 0.86) 50%,
+        rgba(10, 6, 22, 0.92) 100%
+    ) !important;
+
+    backdrop-filter: blur(28px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(28px) saturate(180%) !important;
+
+    border-right: 1px solid rgba(180,120,255,0.18) !important;
+
+    box-shadow:
+        inset -1px 0 0 rgba(255,255,255,0.03),
+        0 8px 40px rgba(0,0,0,0.45) !important;
+
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+}
+
+.mainDrawer .navMenuOption {
+    margin: 6px 12px !important;
+    padding: 11px 16px !important;
+    border-radius: 16px !important;
+
+    transition:
+        background 0.25s ease,
+        transform 0.18s ease,
+        box-shadow 0.25s ease !important;
+}
+
+.mainDrawer .navMenuOption:hover {
+    background: linear-gradient(
+        135deg,
+        rgba(160,90,255,0.18),
+        rgba(110,50,220,0.18)
+    ) !important;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(190,140,255,0.15),
+        0 6px 18px rgba(80,20,160,0.35) !important;
+
+    transform: translateX(4px);
+}
+
+.mainDrawer .navMenuOption-selected,
+.mainDrawer .navMenuOption[aria-selected="true"] {
+    background: linear-gradient(
+        135deg,
+        rgba(170,110,255,0.32),
+        rgba(120,60,255,0.30)
+    ) !important;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(220,180,255,0.30),
+        0 8px 24px rgba(120,60,255,0.35) !important;
+
+    transform: translateX(4px);
+}
+
+.mainDrawer .navMenuOptionText {
+    font-weight: 500 !important;
+    letter-spacing: 0.015em !important;
+    color: rgba(240,230,255,0.92) !important;
+}
+
+.mainDrawer .navMenuOptionIcon {
+    opacity: 0.9 !important;
+    color: rgba(200,160,255,0.95) !important;
+    transition: transform 0.2s ease;
+}
+
+.mainDrawer .navMenuOption:hover .navMenuOptionIcon {
+    transform: scale(1.08);
+}
+
+.mainDrawer-scrollContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.mainDrawer-scrollContainer::-webkit-scrollbar-thumb {
+    background: rgba(170,110,255,0.35);
+    border-radius: 10px;
+}
+
+.mainDrawer-scrollContainer::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.headerRight .material-icons {
+    color: rgba(200,160,255,0.95) !important;
+
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease,
+        text-shadow 0.2s ease;
+}
+
+.headerRight .headerButton:hover .material-icons {
+    color: #d8b6ff !important;
+
+    text-shadow:
+        0 0 10px rgba(170,110,255,0.45),
+        0 0 20px rgba(120,60,255,0.35);
+
+    transform: scale(1.08);
+}
+
+.headerRight .headerButton:active .material-icons {
+    transform: scale(0.95);
+}
+
+.headerRight .headerButton {
+    border-radius: 12px !important;
+
+    transition:
+        background 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.15s ease;
+}
+
+.headerRight .headerButton:hover {
+    background: rgba(160,90,255,0.12) !important;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(180,120,255,0.18),
+        0 4px 12px rgba(120,60,255,0.25);
+}
+
+.searchFields {
+    max-width: 760px !important;
+    margin: 24px auto 18px auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.searchFieldsInner {
+    display: flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+
+    min-height: 56px !important;
+    padding: 0 18px !important;
+
+    background: linear-gradient(
+        180deg,
+        rgba(32, 18, 52, 0.72) 0%,
+        rgba(18, 10, 35, 0.82) 100%
+    ) !important;
+
+    border: 1px solid rgba(170,110,255,0.14) !important;
+    border-radius: 22px !important;
+
+    backdrop-filter: blur(22px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(22px) saturate(180%) !important;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.03),
+        0 10px 30px rgba(0,0,0,0.22) !important;
+
+    transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.18s ease !important;
+}
+
+.searchFieldsInner:focus-within {
+    border-color: rgba(205,160,255,0.24) !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.04),
+        0 12px 36px rgba(0,0,0,0.28),
+        0 0 24px rgba(130,70,255,0.14) !important;
+    transform: translateY(-1px);
+}
+
+.searchfields-icon.material-icons {
+    color: rgba(205,170,255,0.88) !important;
+    font-size: 1.2rem !important;
+    flex-shrink: 0 !important;
+}
+
+.searchFields .inputContainer {
+    margin-bottom: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.searchfields-txtSearch,
+.searchFields input.emby-input,
+#searchTextInput {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+
+    color: rgba(245,238,255,0.95) !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+
+    padding: 0 !important;
+}
+
+.searchfields-txtSearch::placeholder,
+.searchFields input.emby-input::placeholder,
+#searchTextInput::placeholder {
+    color: rgba(210,190,235,0.52) !important;
+}
+
+.searchFields .inputLabel,
+.searchFields .inputContainer::before,
+.searchFields .inputContainer::after {
+    display: none !important;
+}
+
+.sectionTitle.padded-left.padded-right {
+    max-width: 1100px !important;
+    margin: 10px auto 18px auto !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+
+    text-align: center !important;
+    color: rgba(242,234,255,0.95) !important;
+    font-size: 1.35rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.01em !important;
+}
+
+.searchSuggestionsList.padded-left.padded-right {
+    max-width: 1100px !important;
+    margin: 0 auto 40px auto !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+
+.searchSuggestionsList.padded-left.padded-right {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 12px !important;
+}
+
+.searchSuggestionsList.padded-left.padded-right > div {
+    display: contents !important;
+}
+
+.searchSuggestionsList .button-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    min-height: 40px !important;
+    padding: 9px 16px !important;
+    margin: 0 !important;
+
+    border-radius: 999px !important;
+    border: 1px solid rgba(170,110,255,0.12) !important;
+
+    background: linear-gradient(
+        180deg,
+        rgba(34, 20, 54, 0.58) 0%,
+        rgba(18, 10, 35, 0.68) 100%
+    ) !important;
+
+    backdrop-filter: blur(14px) saturate(160%) !important;
+    -webkit-backdrop-filter: blur(14px) saturate(160%) !important;
+
+    color: rgba(235,225,255,0.88) !important;
+    text-decoration: none !important;
+    font-size: 0.95rem !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.02),
+        0 4px 14px rgba(0,0,0,0.16) !important;
+
+    transition:
+        transform 0.18s ease,
+        background 0.22s ease,
+        border-color 0.22s ease,
+        box-shadow 0.22s ease,
+        color 0.22s ease !important;
+}
+
+.searchSuggestionsList .button-link:hover {
+    color: #ffffff !important;
+
+    background: linear-gradient(
+        135deg,
+        rgba(160,90,255,0.18),
+        rgba(110,50,220,0.20)
+    ) !important;
+
+    border-color: rgba(210,170,255,0.22) !important;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(220,180,255,0.08),
+        0 8px 20px rgba(90,30,180,0.24) !important;
+
+    transform: translateY(-2px);
+}
+
+.searchSuggestionsList .button-link:active {
+    transform: scale(0.98) !important;
+}
+
+@media (max-width: 768px) {
+    .searchFields {
+        max-width: 100% !important;
+        margin-top: 16px !important;
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+    }
+
+    .searchFieldsInner {
+        min-height: 50px !important;
+        border-radius: 18px !important;
+    }
+
+    .sectionTitle.padded-left.padded-right,
+    .searchSuggestionsList.padded-left.padded-right {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+    }
+
+    .searchSuggestionsList .button-link {
+        font-size: 0.9rem !important;
+        padding: 8px 13px !important;
+    }
+}
+
+.card[data-type="Episode"] .cardOverlayContainer {
+    pointer-events: none !important;
+}
+
+.card[data-type="Episode"] .cardOverlayButton[data-action="resume"] {
+    pointer-events: auto !important;
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0 !important;
+    z-index: 999 !important;
+    border-radius: inherit !important;
+}
+
+.card[data-type="Series"] .cardOverlayContainer {
+    pointer-events: auto !important;
+}
+
+.card[data-type="Series"] .cardOverlayButton[data-action="resume"] {
+    position: absolute !important;
+    inset: auto !important;
+    width: auto !important;
+    height: auto !important;
+    opacity: 1 !important;
+    z-index: auto !important;
+}
