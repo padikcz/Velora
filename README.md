@@ -24,7 +24,7 @@ A sleek and modern Jellyfin theme designed for a smooth and elegant viewing expe
 4. Paste:
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/USERNAME/Velora@main/velora.css");
+@import url("https://cdn.jsdelivr.net/gh/padikcz/Velora@main/themes/theme.css");
 ```
 
 5. Click **Save**
