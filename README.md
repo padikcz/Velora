@@ -1,7 +1,7 @@
 # 🎨 Velora
 
 A sleek and modern Jellyfin theme designed for a smooth and elegant viewing experience.
-![Uploading image.png…]()
+<img width="2551" height="1267" alt="image" src="https://github.com/user-attachments/assets/5b78ea5e-9b24-4f40-b84a-4b7037ec0828" />
 
 ---
 
