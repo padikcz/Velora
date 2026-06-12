@@ -1,5 +1,7 @@
 # Velora – moderní vzhled pro Jellyfin
 
+![Velora – moderní vzhled pro Jellyfin](https://padik.eu/wp-content/uploads/2026/05/Bez-nazvu.png)
+
 Pokud používáte Jellyfin a chcete modernější a čistší vzhled, vytvořil jsem vlastní téma **Velora**. Cílem bylo vytvořit elegantní design, který zachová jednoduchost, zlepší vzhled rozhraní a zpříjemní používání při sledování filmů a seriálů.
 
 GitHub repozitář:
