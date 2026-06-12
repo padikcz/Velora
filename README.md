@@ -1,42 +1,57 @@
-# 🎨 Velora
+# Velora – moderní vzhled pro Jellyfin
 
-A sleek and modern Jellyfin theme designed for a smooth and elegant viewing experience.
-<img width="2551" height="1267" alt="image" src="https://github.com/user-attachments/assets/5b78ea5e-9b24-4f40-b84a-4b7037ec0828" />
+Pokud používáte Jellyfin a chcete modernější a čistší vzhled, vytvořil jsem vlastní téma **Velora**. Cílem bylo vytvořit elegantní design, který zachová jednoduchost, zlepší vzhled rozhraní a zpříjemní používání při sledování filmů a seriálů.
 
----
+GitHub repozitář:
 
-## ✨ Features
+[Velora GitHub Repository](https://github.com/padikcz/Velora?utm_source=chatgpt.com)
 
-* 🌙 Modern dark interface
-* 💎 Clean and minimal design
-* ⚡ Fast and responsive UI
-* 🎬 Enhanced media browsing
-* 🎨 Custom Jellyfin styling
+## ✨ Funkce
 
----
+Velora přináší několik vylepšení oproti výchozímu vzhledu Jellyfin:
 
-## 📦 Installation
+🌙 Moderní tmavé rozhraní
+💎 Čistý a minimalistický design
+⚡ Rychlé a responzivní prostředí
+🎬 Lepší procházení médií
+🎨 Vlastní úpravy vzhledu Jellyfin
 
-### Custom CSS (Recommended)
+Cílem není měnit samotné fungování Jellyfin, ale zlepšit uživatelský zážitek a dodat aplikaci modernější styl.
 
-1. Open **Jellyfin Dashboard**
-2. Navigate to **Dashboard → General**
-3. Find **Custom CSS**
-4. Paste:
+## 📦 Instalace
 
-```css
+Instalace je jednoduchá a zabere jen pár sekund.
+
+Otevřete **Jellyfin Dashboard**
+
+Přejděte na:
+
+**Dashboard → General → Custom CSS**
+
+Vložte:
+
+```
 @import url("https://cdn.jsdelivr.net/gh/padikcz/Velora@main/themes/theme.css");
 ```
 
-5. Click **Save**
-6. Refresh Jellyfin
+Klikněte na **Save** a obnovte stránku.
+
+Hotovo — Velora se okamžitě načte.
+
+## Proč Velora vznikla?
+
+Používám Jellyfin na vlastních serverech a chtěl jsem vzhled, který bude působit moderněji než výchozí rozhraní. Místo instalace různých úprav jsem se rozhodl vytvořit vlastní řešení přes CSS.
+
+Velora je stále aktivně vyvíjený projekt a postupně budou přibývat další úpravy a nové nápady.
+
+## ⭐ Podpora
+
+Pokud se vám Velora líbí:
+
+⭐ Přidejte hvězdičku na GitHubu
+🔗 Sdílejte projekt s ostatními
+💬 Napište zpětnou vazbu
 
 ---
 
-## ⭐ Support
-
-If you like this theme:
-
-* ⭐ Star this repository
-* 🔗 Share it with others
-* 💬 Leave feedback
+[Přečíst článek na webu](https://padik.eu/velora-moderni-vzhled-pro-jellyfin/)
